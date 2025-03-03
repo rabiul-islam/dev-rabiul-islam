@@ -1,0 +1,105 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ 
+table{
+	width: 100%;
+    color: #fff;
+ } 
+.rPlug_in_registration_form h1{
+     color: #fff;
+     padding-bottom: 80px;
+     padding-top: 30px;
+ }
+ 
+.rPlug_in_registration_form{ 
+    width: 100%;
+    padding: 0px 50px 50px 50px;
+    margin-top: 50px;
+}
+.rPlug-in-registration-section {
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+ 
+.rPlug-in-registration-wrapper{
+	background-color:#3d1144;
+	display: flex; 
+    max-width: 100%;
+    margin: 50px;
+} 
+
+.rPlug-in-registration-wrapper input[type='text'], .rPlug-in-registration-wrapper textarea,.rPlug-in-registration-wrapper input[type='file'],.rPlug-in-registration-wrapper input[type='email'], .rPlug-in-registration-wrapper input[type='phone']{
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #6e4374;
+    background-color: #6e4374;
+    margin-bottom: 6px; 
+}
+.rPlug-in-registration-wrapper input[type='text']::placeholder, .rPlug-in-registration-wrapper textarea::placeholder,.rPlug-in-registration-wrapper input[type='email']::placeholder, .rPlug-in-registration-wrapper input[type='phone']::placeholder{
+    color: #a59f9f;
+    font-size: 14px;
+}
+input::file-selector-button {  
+      border: thin solid #6e4374;
+      border-radius: 3px;
+      background-color: #6e4374;
+      color: #fff; 
+      padding: 0px 19px; 
+}
+.rPlug-in-registration-wrapper input[type="submit"]{ 
+    background-color: #ebbd67;  
+    cursor: pointer;
+    padding: 15px 60px;
+    border-radius: 4px;
+    border: 1px solid #6e4374; 
+    margin-bottom: 6px; 
+    margin-top: 12px;
+}
+.rPlug-in-registration-wrapper input:focus-visible, .rPlug-in-registration-wrapper textarea:focus-visible{
+	outline: none;
+	border: 1px solid #d263e1;
+	color: #fff; 
+}
+.rPlug-in-registration-wrapper textarea{
+    height: 114px; 
+}
+.message{
+    color: #ebbd67; 
+    text-align: center;
+    font-size: 16px;
+}
+ 
+.rPlug-in-registration-section p{
+	text-align: center;
+	margin-top: 100px;
+}
+.rPlug-in-registration-section p a{
+	 color: #fff;
+	 text-decoration: none;	 
+}
+.rPlug-in-registration-submenu{
+	display: table;
+	margin: 0 auto;
+}
+.message_rstricted{
+    margin-top: 0px !important;
+    padding: 0px;
+    text-align: left !important;
+    font-size: 14px;
+} 
+
+
+/*--------------------media-----------------------*/
+
+@media (max-width: 567px) {   
+.rPlug-in-registration-wrapper{
+	display: block;
+    padding-top: 30px;
+}
+.rPlug_in_registration_form{ 
+    width: 100%; 
+}  
+}

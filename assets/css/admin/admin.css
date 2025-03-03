@@ -1,0 +1,60 @@
+
+/* ====  pasination css start  ==== */ 
+.pasinationBtnBox{
+    /*border: 1px solid #ddd;*/
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+
+.pagination_box{
+    list-style:none; 
+    padding:0px;
+    text-align:left;
+}
+
+.pagination_box li{ 
+    display:inline;  
+    width: auto !important; 
+}
+
+.pagination_box li a{ 
+    padding: 4px 8px;
+    font-size: 14px;
+    color: #FFF;
+    background: #2271b1  !important; 
+    text-decoration: none;
+    border-radius: 5px;
+    float: inherit !important; 
+    margin-right: 5px 
+}
+
+.pagination_box li.activelink  a{
+    background: #fb0000 !important;
+}
+
+
+.activelink{
+    /*background:#45307E;*/ 
+    /*padding: 10px 15px !important;*/
+    font-size:14px;
+    color:#fff;
+    border-radius: 5px;
+}
+
+.lastlinkDot{
+    border: none !important;
+}
+
+.applicant_list_admin .tablenav-pages {
+    float: right;
+    text-align: right;
+    margin-top: -10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.applicant_list_admin #user-search-input{
+    width: 250px;
+}
+/* ==== * pasination css end * ==== */
